@@ -20,7 +20,7 @@ spherical.makeSafe()
 camera.position.setFromSpherical(spherical)
 
 let src = 'https://s.bepro11.com/vr-video-sample.mp4'
-const video = document.getElementById('remote-video')
+const video = document.createElement('video')
 video.src = src
 video.loop = true
 video.muted = true
